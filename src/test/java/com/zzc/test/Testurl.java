@@ -64,7 +64,7 @@ public class Testurl {
 				connection.disconnect();
 				reader.close();
 				System.out.println(data.getString("sheng"));
-				System.out.println("hdhaha!eeddd!!!!");
+				System.out.println("hdhahra!eeddd!!!!");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
