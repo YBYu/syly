@@ -112,7 +112,7 @@ webapp/webpage/js/calendar
             <!--旅行社协会会员-->
             <tr>
 				<td align="right" width="16%"><span class="filedzt">电话</span></td>
-				<td class="value" width="16%" colspan="4"><input type="text" value="${monthdata.telephone}" datatype="m" errormsg="请输入正确手机号"  name="telephone"></td>
+				<td class="value" width="16%" colspan="4"><input type="text" value="${monthdata.telephone}" datatype="mc"    name="telephone"></td>
                 <%-- <td align="right" width="16%"><span class="filedzt">报出日期</span></td>
 				<td class="value" width="30%"><input type="text" name="reportdate"  value="${monthdata.reportdate}"    class="Wdate" onclick="WdatePicker()" /></td> --%>
 			</tr>

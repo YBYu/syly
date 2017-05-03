@@ -69,7 +69,7 @@ webapp/webpage/js/calendar
 				<td align="right" width="16%"><span class="filedzt">填表人</span></td>
 				<td class="value" width="16%" colspan="2"><input type="text" value="${scenicweek.preparer}" name="preparer" class="deligate" datatype="*" errormsg="请输入信息" /></td>
                 <td align="right" width="16%"><span class="filedzt">电话</span></td>
-                <td class="value" width="30%"><input type="text" value="${scenicweek.telephone}"  name="telephone" class="adCode" datatype="*" errormsg="请输入正确的电话"></td>
+                <td class="value" width="30%"><input type="text" value="${scenicweek.telephone}"  name="telephone" class="adCode" datatype="mc"  ></td>
 			</tr>
             <!--所在地区、详细地址-->
        

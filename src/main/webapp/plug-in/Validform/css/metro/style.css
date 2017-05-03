@@ -1,4 +1,4 @@
-/*==========以下部分是Validform必须的===========*/
+/*==========浠ヤ笅閮ㄥ垎鏄疺alidform蹇呴』鐨�==========*/
 .Validform_checktip{
 	margin-left:8px;
 	line-height:20px;
@@ -23,6 +23,7 @@
 	background:url(../images/onLoad.gif) no-repeat left center;
 }
 .Validform_error{
+	border:2px solid red !important;
 	background-color:#FFE4E1;
 }
 #Validform_msg{color:#7d8289; font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif; width:280px; -webkit-box-shadow:2px 2px 3px #aaa; -moz-box-shadow:2px 2px 3px #aaa; background:#fff; position:absolute; top:0px; right:50px; z-index:99999; display:none;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#999999');}

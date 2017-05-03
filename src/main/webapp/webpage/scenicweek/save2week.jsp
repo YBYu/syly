@@ -58,7 +58,7 @@
 				<td align="right" width="16%"><span class="filedzt">填表人</span></td>
 				<td class="value" width="16%" colspan="2"><input type="text" value="<c:if test='${empty weekdata.preparer}'>${scenicdata.informantname }</c:if><c:if test='${not empty weekdata.preparer}'>${weekdata.preparer }</c:if>" name="preparer" class="deligate" datatype="*" errormsg="请输入法人代表" /></td>
                 <td align="right" width="16%"><span class="filedzt">电话</span></td>
-                <td class="value" width="30%"><input type="text" value="<c:if test='${empty weekdata.telephone}'>${scenicdata.informantphone }</c:if><c:if test='${not empty weekdata.telephone}'>${weekdata.telephone }</c:if>" name="telephone" class="adCode" datatype="*" errormsg="请输入正确的电话"/></td>
+                <td class="value" width="30%"><input type="text" value="<c:if test='${empty weekdata.telephone}'>${scenicdata.informantphone }</c:if><c:if test='${not empty weekdata.telephone}'>${weekdata.telephone }</c:if>" name="telephone" class="adCode" datatype="mc"  /></td>
 			</tr>
             
 			

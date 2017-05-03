@@ -103,7 +103,7 @@ webapp/webpage/js/calendar
             <!--旅行社协会会员-->
             <tr>
 				<td align="right" width="16%"><span class="filedzt">电话</span></td>
-				<td class="value" width="16%" colspan="2"><input type="text" value="${scenicData.informantphone }" name="telephone" datatype="m" class="qqId" errormsg="请输入电话号码" /></td>
+				<td class="value" width="16%" colspan="2"><input type="text" value="${scenicData.informantphone }" name="telephone" datatype="mc"   /></td>
                 <!-- <td align="right" width="16%"><span class="filedzt">报出日期</span></td>
 				<td class="value" width="30%"><input type="text" value="" name="reportdate" class="Wdate" onClick="WdatePicker()" errormsg="请输入日期" /></td> -->
 			</tr>

@@ -109,7 +109,7 @@ webapp/webpage/js/calendar
             <!--旅行社协会会员-->
             <tr>
 				<td align="right" width="16%"><span class="filedzt">电话</span></td>
-				<td class="value" width="32%" colspan="4"><input type="text" value="<c:if test='${empty monthdata.telephone}'>${scenicdata.informantphone }</c:if><c:if test='${not empty monthdata.telephone}'>${monthdata.telephone }</c:if>" datatype="m" errormsg="请输入正确手机号"  name="telephone"></td>
+				<td class="value" width="32%" colspan="4"><input type="text" value="<c:if test='${empty monthdata.telephone}'>${scenicdata.informantphone }</c:if><c:if test='${not empty monthdata.telephone}'>${monthdata.telephone }</c:if>" datatype="mc"  name="telephone"></td>
                 <%-- <td align="right" width="16%"><span class="filedzt">报出日期</span></td>
 				<td class="value" width="30%"><input type="text" name="reportdate"  value=<fmt:formatDate pattern="yyyy-MM-dd" value="${monthdata.reportdate}" />     class="Wdate" onclick="WdatePicker()" /></td> --%>
 			</tr>

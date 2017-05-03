@@ -199,7 +199,7 @@ public class ScenicSpotMonth implements java.io.Serializable{
 	public void setFreeticket(Integer freeticket) {
 		this.freeticket = freeticket;
 	}
-	@Column(name ="compare",nullable=true,length=10) 
+	@Column(name ="compare",nullable=true,length=100) 
 	public String getCompare() {
 		return compare;
 	}
