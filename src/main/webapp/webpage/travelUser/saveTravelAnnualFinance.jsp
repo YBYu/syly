@@ -265,7 +265,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td width="120">损益及分配</td>
+					<td width="120">权益及分配</td>
 					<td width="100">
 						<input type="text" name="gainloss" style="text-align: right"
 							datatype="decimals3"

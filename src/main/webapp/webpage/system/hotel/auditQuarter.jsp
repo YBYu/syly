@@ -176,7 +176,7 @@
 				</tr>
 				<tr>
 					<td align="right" width="16%">
-						<span class="filedzt">平均房价(千元)</span>
+						<span class="filedzt">平均房价(元)</span>
 					</td>
 					<td class="value" width="16%" colspan="4">
 						<input type="text" name="avgHotelPrice"
